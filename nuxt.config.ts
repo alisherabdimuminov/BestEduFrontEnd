@@ -12,9 +12,9 @@ export default defineNuxtConfig({
           link: [
               { href: "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel: "stylesheet" }
           ],
-          meta: [
-            { "http-equiv": "content-security-policy", content: "upgrade-insecure-requests" }
-          ]
+          // meta: [
+          //   { "http-equiv": "content-security-policy", content: "upgrade-insecure-requests" }
+          // ]
       }
   },
   runtimeConfig: {
