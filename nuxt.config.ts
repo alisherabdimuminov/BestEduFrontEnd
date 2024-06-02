@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiURL: "http://127.0.0.1:8000/"
+      apiURL: "http://147.45.158.162:9060/"
     }
   }
 })
