@@ -49,7 +49,7 @@ let headers = reactive(["ID", "Telefon raqam", "Ism", "Familiya", "Otasini ismi"
 
 onMounted(async () => {
     data.loading = true;
-    const response: {status: string, errors: object, data: any} = await $fetch(`${config.public.apiURL}/users/`, {
+    const response: {status: string, errors: object, data: any} = await $fetch(`${config.public.apiURL}users/`, {
         headers: {
             'Authorization': `Token ${getUser.value.user?.token}`
         }
