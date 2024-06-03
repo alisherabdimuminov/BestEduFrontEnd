@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiURL: "http://147.45.158.162:9060/"
+      apiURL: "https://bestedu.uz/"
     }
   }
 })
