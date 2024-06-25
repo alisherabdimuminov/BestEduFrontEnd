@@ -78,6 +78,20 @@
                         <i class='bx bx-add-to-queue md:hidden'></i>
                     </NuxtLink>
                 </li>
+                <p class="hidden md:block pt-3 font-bold text-gray-400">Hisobotlar</p>
+                <hr class="md:hidden border border-slate-300/10 my-2">
+                <li :class="{'bg-gray-300/10': isActiveMenu('/checks')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                    <NuxtLink to="/checks">
+                        <span class="hidden md:flex items-center gap-2">
+                            <i class='bx bx-wallet'></i>
+                            Cheklar
+                        </span>
+                    </NuxtLink>
+                    <NuxtLink to="/checks">
+                        <i class='bx bx-add-to-queue md:hidden'></i>
+                    </NuxtLink>
+                </li>
+
                 <li :title="getUser.user?.first_name + getUser.user?.last_name" class="absolute bottom-14 w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
                     <span class="hidden md:flex items-center gap-2">
                         <i class='bx bx-user'></i>
