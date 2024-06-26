@@ -16,8 +16,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiURL: "http://localhost:8000/",
-      // apiURL: "https://bestedu.uz/",
+      // apiURL: "http://localhost:8000/",
+      apiURL: "https://bestedu.uz/",
     }
   }
 })
