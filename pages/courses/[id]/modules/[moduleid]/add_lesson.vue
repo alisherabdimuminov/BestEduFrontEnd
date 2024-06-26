@@ -15,7 +15,7 @@
             <input required id="resource" type="file" class="w-full block border border-gray-300/10 bg-transparent outline-none focus:ring-1 focus:ring-green-500 rounded py-1 px-2"> <br>
             
             <label for="name">Oldingi dars</label>
-            <select v-model="data.lesson.previous" name="lesson" id="lesson" class="w-full block border border-gray-300/10 bg-transparent outline-none focus:ring-1 focus:ring-green-500 rounded py-1 px-2">
+            <select v-model="data.lesson.previous" name="lesson" id="lesson" class="text-white w-full h-fit block border border-gray-300/10 bg-slate-900 outline-none focus:ring-1 focus:ring-green-500 rounded py-1 px-2">
                 <option value="">Tanlang</option>
                 <option v-for="(lesson, index) in data.lessons" :key="index" :value="lesson.id">{{ lesson.name }}</option>
             </select> <br>

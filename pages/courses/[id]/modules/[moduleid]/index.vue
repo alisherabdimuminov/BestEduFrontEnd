@@ -35,6 +35,10 @@
                 <NuxtLink :to="{name: 'courses-id-modules-moduleid-add_lesson', params: {id: route.params.id, moduleid: route.params.moduleid}}" class="bg-green-500 py-1 px-2 rounded inline-flex items-center">
                     <i class="bx bx-plus"></i>
                     Dars qo'shish
+                </NuxtLink> &nbsp;
+                <NuxtLink :to="{name: 'courses-id-modules-moduleid-add_test', params: {id: route.params.id, moduleid: route.params.moduleid}}" class="bg-green-500 py-1 px-2 rounded inline-flex items-center">
+                    <i class="bx bx-plus"></i>
+                    Test qo'shish
                 </NuxtLink>
                 <!-- {{ data.module }} -->
             </form>
