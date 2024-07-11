@@ -10,7 +10,12 @@ export default defineNuxtConfig({
   app: {
       head: {
           link: [
-              { href: "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel: "stylesheet" }
+              { href: "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", rel: "stylesheet" },
+              { rel: "icon", type: "image/png", href: "./android-chrome-192x192.png" },
+              { rel: "icon", type: "image/png", href: "./android-chrome-512x512.png" },
+              { rel: "icon", type: "image/png", href: "./apple-touch-icon.png" },
+              { rel: "icon", type: "image/png", href: "./favicon-16x16.png" },
+              { rel: "manifest", href: "./favicon-32x32.png" },
           ],
       }
   },

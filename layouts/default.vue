@@ -8,7 +8,7 @@
             <ul class="mt-5 text-lg">
                 <p class="hidden md:block pt-3 font-bold text-gray-400">Asosiy</p>
                 <hr class="md:hidden border border-slate-300/10 my-2">
-                <li :class="{'bg-gray-300/10': isActiveMenu('/')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                <li :class="{'border border-green-500 bg-green-500/10': isActiveMenu('/')}" class="w-fit md:w-full py-1 px-2 hover:bg-green-500/10 rounded cursor-pointer">
                     <NuxtLink to="/">
                         <span class="hidden md:flex items-center gap-2">
                             <i class='bx bx-home-alt'></i>
@@ -21,7 +21,7 @@
                 </li>
                 <p class="hidden md:block pt-3 font-bold text-gray-400">Foydalanuvchilar</p>
                 <hr class="md:hidden border border-slate-300/10 my-2">
-                <li :class="{'bg-gray-300/10': isActiveMenu('/users')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                <li :class="{'border border-green-500 bg-green-500/10': isActiveMenu('/users')}" class="w-fit md:w-full py-1 px-2 hover:bg-green-500/10 rounded cursor-pointer">
                     <NuxtLink to="/users">
                         <span class="hidden md:flex items-center gap-2">
                             <i class='bx bx-group'></i>
@@ -32,7 +32,7 @@
                         <i class='bx bx-group md:hidden'></i>
                     </NuxtLink>
                 </li>
-                <li :class="{'bg-gray-300/10': isActiveMenu('/users/students')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                <li :class="{'border border-green-500 bg-green-500/10': isActiveMenu('/users/students')}" class="w-fit md:w-full py-1 px-2 hover:bg-green-500/10 rounded cursor-pointer">
                     <NuxtLink to="/users/students">
                         <span class="hidden md:flex items-center gap-2">
                             <i class='bx bxs-graduation'></i>
@@ -43,7 +43,7 @@
                         <i class='bx bxs-graduation md:hidden'></i>
                     </NuxtLink>
                 </li>
-                <li :class="{'bg-gray-300/10': isActiveMenu('/users/teachers')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                <li :class="{'border border-green-500 bg-green-500/10': isActiveMenu('/users/teachers')}" class="w-fit md:w-full py-1 px-2 hover:bg-green-500/10 rounded cursor-pointer">
                     <NuxtLink to="/users/teachers">
                         <span class="hidden md:flex items-center gap-2">
                             <i class='bx bxs-user'></i>
@@ -56,7 +56,7 @@
                 </li>
                 <p class="hidden md:block pt-3 font-bold text-gray-400">Kurslar</p>
                 <hr class="md:hidden border border-slate-300/10 my-2">
-                <li :class="{'bg-gray-300/10': isActiveMenu('/courses')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                <li :class="{'border border-green-500 bg-green-500/10': isActiveMenu('/courses')}" class="w-fit md:w-full py-1 px-2 hover:bg-green-500/10 rounded cursor-pointer">
                     <NuxtLink to="/courses">
                         <span class="hidden md:flex items-center gap-2">
                             <i class='bx bx-list-ol'></i>
@@ -67,7 +67,7 @@
                         <i class='bx bx-list-ol md:hidden'></i>
                     </NuxtLink>
                 </li>
-                <li :class="{'bg-gray-300/10': isActiveMenu('/courses/create')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                <li :class="{'border border-green-500 bg-green-500/10': isActiveMenu('/courses/create')}" class="w-fit md:w-full py-1 px-2 hover:bg-green-500/10 rounded cursor-pointer">
                     <NuxtLink to="/courses/create">
                         <span class="hidden md:flex items-center gap-2">
                             <i class='bx bx-add-to-queue'></i>
@@ -80,7 +80,7 @@
                 </li>
                 <p class="hidden md:block pt-3 font-bold text-gray-400">Hisobotlar</p>
                 <hr class="md:hidden border border-slate-300/10 my-2">
-                <li :class="{'bg-gray-300/10': isActiveMenu('/checks')}" class="w-fit md:w-full py-1 px-2 hover:bg-gray-300/10 rounded cursor-pointer">
+                <li :class="{'border border-green-500 bg-green-500/10': isActiveMenu('/checks')}" class="w-fit md:w-full py-1 px-2 hover:bg-green-500/10 rounded cursor-pointer">
                     <NuxtLink to="/checks">
                         <span class="hidden md:flex items-center gap-2">
                             <i class='bx bx-wallet'></i>

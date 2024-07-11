@@ -24,7 +24,7 @@
         <label for="bio">Talaba</label>
         <input :checked="data.user.is_student" v-model="data.user.is_student" type="checkbox" id="bio" class="w-4 h-4 text-blue-600 accent-green-500 block outline-none rounded py-1 px-2" /> <br>
     
-        <button @click="save" class="w-full bg-blue-700 py-1 px-2 rounded outline-none text-xl font-semibold">Saqlash</button>
+        <button @click="save" class="w-full bg-green-500 py-1 px-2 rounded outline-none text-xl font-semibold">Saqlash</button>
     </div>
 </template>
 

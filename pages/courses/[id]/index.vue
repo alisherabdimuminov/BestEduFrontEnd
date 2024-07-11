@@ -18,7 +18,7 @@
                 <label for="course_desc">Kurs haqida</label>
                 <textarea required v-model="data.course.description" class="w-full block border border-gray-300/10 bg-transparent outline-none focus:ring-1 focus:ring-blue-800 rounded py-1 px-2 resize-none" id="course_desc"></textarea> <br>
 
-                <button type="submit" class="w-full bg-blue-700 py-1 px-2 rounded outline-none text-xl font-semibold">Saqlash</button>
+                <button type="submit" class="w-full bg-green-500 py-1 px-2 rounded outline-none text-xl font-semibold">Saqlash</button>
             </form>
             <div class="mx-2 p-2">
                 <ul>

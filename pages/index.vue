@@ -1,6 +1,27 @@
 <template>
-    <div class="p-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloribus. Placeat perferendis asperiores sint iure possimus voluptatum rerum, corrupti eius? Repellendus nisi, libero officiis alias reprehenderit magnam quaerat cum aliquam? Explicabo dolorum dolorem vitae odio mollitia quibusdam excepturi voluptatum impedit error laborum nemo, debitis, illum praesentium voluptas ipsam asperiores, corrupti porro modi maiores enim eos quidem amet? Soluta mollitia, cum facilis eius iusto numquam, fuga aut, quis ad minus perferendis! Accusantium illo iste aspernatur sequi dolorum distinctio repellat hic harum a perspiciatis molestiae assumenda inventore minima sint temporibus eligendi, est modi dolores sunt doloribus at? Velit sequi quidem numquam tempore?
+    <div class="p-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <NuxtLink to="/users/" class="border rounded-md p-3 border-green-500 text-green-500 hover:bg-green-500/10 flex items-center justify-between">
+                <i class='bx bx-group text-2xl border rounded-full py-1 px-2 border-green-500 text-green-500'></i>
+                <span class="font-bold">Foydalanuvchilar</span>
+            </NuxtLink>
+            <NuxtLink to="/users/students/" class="border rounded-md p-3 border-green-500 text-green-500 hover:bg-green-500/10 flex items-center justify-between">
+                <i class='bx bxs-graduation text-2xl border rounded-full py-1 px-2 border-green-500 text-green-500'></i>
+                <span class="font-bold">Talabalar</span>
+            </NuxtLink>
+            <NuxtLink to="/users/teachers/" class="border rounded-md p-3 border-green-500 text-green-500 hover:bg-green-500/10 flex items-center justify-between">
+                <i class='bx bxs-user text-2xl border rounded-full py-1 px-2 border-green-500 text-green-500'></i>
+                <span class="font-bold">O'qituvchilar</span>
+            </NuxtLink>
+            <NuxtLink to="/courses/" class="border rounded-md p-3 border-green-500 text-green-500 hover:bg-green-500/10 flex items-center justify-between">
+                <i class='bx bx-list-ol text-2xl border rounded-full py-1 px-2 border-green-500 text-green-500'></i>
+                <span class="font-bold">Kurslar</span>
+            </NuxtLink>
+            <NuxtLink to="/checks/" class="border rounded-md p-3 border-green-500 text-green-500 hover:bg-green-500/10 flex items-center justify-between">
+                <i class='bx bx-wallet text-2xl border rounded-full py-1 px-2 border-green-500 text-green-500'></i>
+                <span class="font-bold">Moliyaviy hisobotlar</span>
+            </NuxtLink>
+        </div>
     </div>
 </template>
 
